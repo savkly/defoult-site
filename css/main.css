@@ -1,0 +1,61 @@
+@import url(../font/stylesheet.css);
+body {
+	font-family: 'SF UI Display', sans-serif;
+	font-size: 16px;
+}
+.container {
+	padding: 0 15px;
+	min-width: 319px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+@media (max-width: 375px) {
+	.container {
+		padding: 0 0;
+	}
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tnw {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* MENU */
+
+p {
+	overflow-wrap: break-word;
+}
+
+button, input[type='submit'] {
+    background: #000000;
+    cursor: pointer;
+    border-radius: 4.8px;
+    padding: 9px 17px;
+    font-family: inherit;
+    border: 1px solid #343A40;
+    color: #fff;
+}
+input {
+    padding: 7px 13px;
+    color: #6C757D;
+    border-radius: 4px;
+    font-family: inherit;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+select {
+    padding: 7px 13px;
+    color: #6C757D;
+    border-radius: 4px;
+    font-family: inherit;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+}
+
